@@ -1,0 +1,39 @@
+{
+  "normals": {
+    "stlp": {
+      "startup": 3,
+      "active": 2,
+      "recovery": 12
+    },
+    "stmp": {
+      "startup": 3,
+      "active": 2,
+      "recovery": 12
+    },
+    "sthp": {
+      "startup": 3,
+      "active": 2,
+      "recovery": 12
+    },
+    "stlk": {
+      "startup": 3,
+      "active": 2,
+      "recovery": 12
+    },
+    "stmk": {
+      "startup": 3,
+      "active": 2,
+      "recovery": 12
+    },
+    "sthk": {
+      "startup": 3,
+      "active": 2,
+      "recovery": 12
+    }
+  },
+  "health": 1000,
+  "specials": {
+    "shoryuken": "623P",
+    "hadoken": "236P"
+  }
+}
