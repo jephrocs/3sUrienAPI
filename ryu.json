@@ -1,481 +1,488 @@
 {
-  "normals": {
-    "command": {
-      "F+MP": {
-        "name": "Collarbone Breaker",
-        "start": 16,
-        "act": 5,
-        "rcv": 10,
-        "dmg": "4[0] + 28[1]",
-        "stun": "1~7 + 1~7",
-        "stunT": "70 + 70",
-        "fAdv": "Hit standing: -2 / +0(-1), Else: +7 / +9(+8)",
-        "comment": "This move can only be blocked while standing. It has properties similar to those of aerial heavy attacks, which can be checked on the different recovery times depending on hitting standing or crouching opponents. However, Ryu is considered on the ground and can be thrown out of the move if the enemy reacts to its slow start-up or attempts a reversal counter throw"
-      },
-      "F+HP": {
-        "name": "Solar Plexus Strike",
-        "start": 10,
-        "act": " 1+2",
-        "rcv": 12,
-        "dmg": "4[0] + 28[1]",
-        "stun": "1~7 + 1~7",
-        "stunT": "70 + 70",
-        "fAdv": "+9 / +8(+7)",
-        "comment": "This is a good move to push you forward so as to close the gap between you and the enemy. It works as a dash if you want to get in position for an anti-air Shoryuken or simply get face-to-face to the enemy and throw before he reacts. A main advantage of using this move instead of walking while exchanging projectiles is that you can use a Hadouken as soon as you recover, while walking forward and attempting a Hadouken immediately will give you a Shoryuken instead due to command overlapping. It can also be used to punish enemies from close range, as it gives you enough time to link most your normals after it. For example, standing Fierce or crouching Forward into red Hadouken."
-      }
-    },
-    "stand": {
-      "lp": {
-        "cl": {
-          "start": 2,
-          "act": 4,
-          "rcv": 5,
-          "dmg": "4[0}",
-          "stun": "0~5",
-          "stunT": 40,
-          "chnC": "No",
-          "speC": "Yes",
-          "supC": "yes",
-          "fAdv": "+4",
-          "comment": "Ryu performs an elbow smash in front and above his head. Fast start-up anti-air up close, with just OK priority."
+  "title": {
+    "ryu": {
+      "normals": {
+        "command": {
+          "F+MP": {
+            "name": "Collarbone Breaker",
+            "start": 16,
+            "act": 5,
+            "rcv": 10,
+            "dmg": "4[0] + 28[1]",
+            "stun": "1~7 + 1~7",
+            "stunT": "70 + 70",
+            "fAdv": "Hit standing: -2 / +0(-1), Else: +7 / +9(+8)",
+            "comment": "This move can only be blocked while standing. It has properties similar to those of aerial heavy attacks, which can be checked on the different recovery times depending on hitting standing or crouching opponents. However, Ryu is considered on the ground and can be thrown out of the move if the enemy reacts to its slow start-up or attempts a reversal counter throw"
+          },
+          "F+HP": {
+            "name": "Solar Plexus Strike",
+            "start": 10,
+            "act": " 1+2",
+            "rcv": 12,
+            "dmg": "4[0] + 28[1]",
+            "stun": "1~7 + 1~7",
+            "stunT": "70 + 70",
+            "fAdv": "+9 / +8(+7)",
+            "comment": "This is a good move to push you forward so as to close the gap between you and the enemy. It works as a dash if you want to get in position for an anti-air Shoryuken or simply get face-to-face to the enemy and throw before he reacts. A main advantage of using this move instead of walking while exchanging projectiles is that you can use a Hadouken as soon as you recover, while walking forward and attempting a Hadouken immediately will give you a Shoryuken instead due to command overlapping. It can also be used to punish enemies from close range, as it gives you enough time to link most your normals after it. For example, standing Fierce or crouching Forward into red Hadouken."
+          }
         },
-        "fa": {
-          "start": 2,
-          "act": 4,
-          "rcv": 5,
-          "dmg": "4[0}",
-          "stun": "0~5",
-          "stunT": 40,
-          "chnC": "Yes",
-          "speC": "Yes",
-          "supC": "yes",
-          "fAdv": "+4",
-          "comment": "Rapid-fire Jab that has very good priority (Ryu's arm is completely invulnerable) but just acceptable reach and very low damage."
-        }
-      },
+        "stand": {
+          "lp": {
+            "cl": {
+              "start": 2,
+              "act": 4,
+              "rcv": 5,
+              "dmg": "4[0}",
+              "stun": "0~5",
+              "stunT": 40,
+              "chnC": "No",
+              "speC": "Yes",
+              "supC": "yes",
+              "fAdv": "+4",
+              "comment": "Ryu performs an elbow smash in front and above his head. Fast start-up anti-air up close, with just OK priority."
+            },
+            "fa": {
+              "start": 2,
+              "act": 4,
+              "rcv": 5,
+              "dmg": "4[0}",
+              "stun": "0~5",
+              "stunT": 40,
+              "chnC": "Yes",
+              "speC": "Yes",
+              "supC": "yes",
+              "fAdv": "+4",
+              "comment": "Rapid-fire Jab that has very good priority (Ryu's arm is completely invulnerable) but just acceptable reach and very low damage."
+            }
+          },
 
-      "mp": {
-        "cl": {
-          "start": 3,
-          "act": 2,
-          "rcv": 17,
-          "dmg": "22[0]",
-          "stun": "5~11",
-          "stunT": 60,
-          "chnC": "No",
-          "speC": "Yes",
-          "supC": "yes",
-          "fAdv": "-1",
-          "comment": "Ryu performs a hook. This move has a not very good recovery, so try canceling it into some special such as the hadouken to avoid punishment."
-        },
-        "fa": {
-          "start": 3,
-          "act": 4,
-          "rcv": 7,
-          "dmg": "22[0]",
-          "stun": "5~11",
-          "stunT": 60,
-          "chnC": "No",
-          "speC": "Yes",
-          "supC": "yes",
-          "fAdv": "+7",
-          "comment": "Ryu performs a straight punch. This move has very good recovery, reach and priority. Works as anti-air against moves whose extended limbs are vulnerable, but notice Ryu's body moves forward a bit, so you need some room to use it correctly. Ryu's whole arm is invincible in this attack"
-        }
-      },
-      "hp": {
-        "cl": {
-          "start": 3,
-          "act": "8 (2+6)",
-          "rcv": 23,
-          "dmg": "28[1]",
-          "stun": "3~9 / 10~16",
-          "stunT": "40 / 80",
-          "chnC": "No",
-          "speC": "Yes / No",
-          "supC": "Yes / Yes",
-          "fAdv": "-9 / -7",
-          "comment": "Ryu does a close upper. Good priority anti-air if the enemy is on top of you, and if he is close it can be canceled into any special attack for a basic but damaging combo. Bad recovery."
-        },
-        "fa": {
-          "start": 5,
-          "act": 6,
-          "rcv": 23,
-          "dmg": "28[1]",
-          "stun": "10~16",
-          "stunT": "40 / 80",
-          "chnC": "No",
-          "speC": "No",
-          "supC": "Yes",
-          "fAdv": "-7",
-          "comment": "Similar to far.strong, but with higher damage and longer reach, but the head hitbox moves forward just as much and the recovery is hideous. This move can not be canceled into specials, so make sure it hits or you will pay the price."
-        }
-      },
-      "lk": {
-        "cl": {
-          "start": 6,
-          "act": 2,
-          "rcv": 8,
-          "dmg": "12[0]",
-          "stun": "0~5",
-          "stunT": 40,
-          "chnC": "Yes",
-          "speC": "No",
-          "supC": "yes",
-          "fAdv": "+3",
-          "comment": "Ryu performs a low kick that can be canceled into a far Short or crouching Short. This move must be blocked low."
-        },
-        "fa": {
-          "start": 4,
-          "act": 8,
-          "rcv": 5,
-          "dmg": "14[0]",
-          "stun": "0~5",
-          "stunT": 40,
-          "chnC": "No",
-          "speC": "Yes",
-          "supC": "Yes",
-          "fAdv": "+0",
-          "comment": "High side kick with good priority, but sort of slow. Good anti-air."
-        }
-      },
+          "mp": {
+            "cl": {
+              "start": 3,
+              "act": 2,
+              "rcv": 17,
+              "dmg": "22[0]",
+              "stun": "5~11",
+              "stunT": 60,
+              "chnC": "No",
+              "speC": "Yes",
+              "supC": "yes",
+              "fAdv": "-1",
+              "comment": "Ryu performs a hook. This move has a not very good recovery, so try canceling it into some special such as the hadouken to avoid punishment."
+            },
+            "fa": {
+              "start": 3,
+              "act": 4,
+              "rcv": 7,
+              "dmg": "22[0]",
+              "stun": "5~11",
+              "stunT": 60,
+              "chnC": "No",
+              "speC": "Yes",
+              "supC": "yes",
+              "fAdv": "+7",
+              "comment": "Ryu performs a straight punch. This move has very good recovery, reach and priority. Works as anti-air against moves whose extended limbs are vulnerable, but notice Ryu's body moves forward a bit, so you need some room to use it correctly. Ryu's whole arm is invincible in this attack"
+            }
+          },
+          "hp": {
+            "cl": {
+              "start": 3,
+              "act": "8 (2+6)",
+              "rcv": 23,
+              "dmg": "28[1]",
+              "stun": "3~9 / 10~16",
+              "stunT": "40 / 80",
+              "chnC": "No",
+              "speC": "Yes / No",
+              "supC": "Yes / Yes",
+              "fAdv": "-9 / -7",
+              "comment": "Ryu does a close upper. Good priority anti-air if the enemy is on top of you, and if he is close it can be canceled into any special attack for a basic but damaging combo. Bad recovery."
+            },
+            "fa": {
+              "start": 5,
+              "act": 6,
+              "rcv": 23,
+              "dmg": "28[1]",
+              "stun": "10~16",
+              "stunT": "40 / 80",
+              "chnC": "No",
+              "speC": "No",
+              "supC": "Yes",
+              "fAdv": "-7",
+              "comment": "Similar to far.strong, but with higher damage and longer reach, but the head hitbox moves forward just as much and the recovery is hideous. This move can not be canceled into specials, so make sure it hits or you will pay the price."
+            }
+          },
+          "lk": {
+            "cl": {
+              "start": 6,
+              "act": 2,
+              "rcv": 8,
+              "dmg": "12[0]",
+              "stun": "0~5",
+              "stunT": 40,
+              "chnC": "Yes",
+              "speC": "No",
+              "supC": "yes",
+              "fAdv": "+3",
+              "comment": "Ryu performs a low kick that can be canceled into a far Short or crouching Short. This move must be blocked low."
+            },
+            "fa": {
+              "start": 4,
+              "act": 8,
+              "rcv": 5,
+              "dmg": "14[0]",
+              "stun": "0~5",
+              "stunT": 40,
+              "chnC": "No",
+              "speC": "Yes",
+              "supC": "Yes",
+              "fAdv": "+0",
+              "comment": "High side kick with good priority, but sort of slow. Good anti-air."
+            }
+          },
 
-      "mk": {
-        "cl": {
-          "start": 3,
-          "act": 6,
-          "rcv": 9,
-          "dmg": "24[0]",
-          "stun": "5~11",
-          "stunT": 60,
-          "chnC": "No",
-          "speC": "Yes",
-          "supC": "yes",
-          "fAdv": "+3",
-          "comment": "Knee bash with a good recovery."
+          "mk": {
+            "cl": {
+              "start": 3,
+              "act": 6,
+              "rcv": 9,
+              "dmg": "24[0]",
+              "stun": "5~11",
+              "stunT": 60,
+              "chnC": "No",
+              "speC": "Yes",
+              "supC": "yes",
+              "fAdv": "+3",
+              "comment": "Knee bash with a good recovery."
+            },
+            "fa": {
+              "start": 7,
+              "act": 8,
+              "rcv": 7,
+              "dmg": "24[0]",
+              "stun": "5~11",
+              "stunT": 60,
+              "chnC": "No",
+              "speC": "No",
+              "supC": "No",
+              "fAdv": "+3",
+              "comment": "High side kick with good priority, but very slow start-up. Good anti-air if you can hit the button early enough."
+            }
+          },
+          "hk": {
+            "cl": {
+              "start": 7,
+              "act": "12 (8+4)",
+              "rcv": 11,
+              "dmg": "30[1] + 4[1]",
+              "stun": "10~16 + 1~7",
+              "stunT": "80 + 70",
+              "chnC": "No",
+              "speC": "No",
+              "supC": "No",
+              "fAdv": "-1 / +7(+6)",
+              "comment": "Ryu performs an axe kick that hits twice if the enemy is close enough. This is not a very useful move, but it is safe on block from point-blank range and often trades with aerial attacks. If you use it as a meaty, you can combo a crouching kick for two or three hits. you often have better options, though."
+            },
+            "fa": {
+              "start": 2,
+              "act": "12(4+8)",
+              "rcv": 17,
+              "dmg": "30[1]",
+              "stun": "10~16",
+              "stunT": "80",
+              "chnC": "No",
+              "speC": "Yes / No",
+              "supC": "Yes / No",
+              "fAdv": "-7 / -3",
+              "comment": "Ryu's staple Roundhouse kick. Mediocre anti-air that can be canceled in the odd event that it hits during the first active part. This move can not be canceled into specials if it hits while the leg is fully extended."
+            }
+          }
         },
-        "fa": {
-          "start": 7,
-          "act": 8,
-          "rcv": 7,
-          "dmg": "24[0]",
-          "stun": "5~11",
-          "stunT": 60,
-          "chnC": "No",
-          "speC": "No",
-          "supC": "No",
-          "fAdv": "+3",
-          "comment": "High side kick with good priority, but very slow start-up. Good anti-air if you can hit the button early enough."
+        "crouch": {
+          "lp": {
+            "start": 2,
+            "act": 4,
+            "rcv": 5,
+            "dmg": "4[0}",
+            "stun": "0~5",
+            "stunT": 40,
+            "chnC": "Yes",
+            "speC": "Yes",
+            "supC": "yes",
+            "fAdv": "+4",
+            "comment": "Rapid-fire ducking Jab with average reach and very good priority. Ryu's arm is completely invincible."
+          },
+          "mp": {
+            "start": 3,
+            "act": 4,
+            "rcv": 7,
+            "dmg": "22[0]",
+            "stun": "5~11",
+            "stunT": 60,
+            "chnC": "No",
+            "speC": "Yes",
+            "supC": "yes",
+            "fAdv": "+7",
+            "comment": "Ryu does a crouching straight. Good damage, stun, recovery and priority. Ryu's whole arm is completely invincible. This move can be used as a safe meaty against several invulnerable special attacks from the correct distance. However, this can be countered by standing still (which shrinks the hurtbox horizontally) and then either attacking or walking up and throwing. It is also unsafe against most supers, which is yet another reason to (always) have an eye on the enemy's super bar."
+          },
+          "hp": {
+            "start": 3,
+            "act": "3+8 (11)",
+            "rcv": 23,
+            "dmg": "28[1] / 22[1]",
+            "stun": "3~9 / 10~16",
+            "stunT": "40 / 80",
+            "chnC": "No",
+            "speC": "Yes / No",
+            "supC": "Yes / No",
+            "fAdv": "-12 / -9",
+            "comment": "Uppercut from crouching position. It does good damage and has a deceptively long horizontal reach, but just average to low priority and quite long recovery. This move is unsafe on block or hit and is mainly used in combos or as close-up anti-air. Favor standing Fierce if you can for the latter."
+          },
+          "lk": {
+            "start": 3,
+            "act": 4,
+            "rcv": 5,
+            "dmg": "4[0]",
+            "stun": "0~5",
+            "stunT": 40,
+            "chnC": "Yes",
+            "speC": "Yes",
+            "supC": "yes",
+            "fAdv": "+4",
+            "comment": "Rapid fire crouching low kick. Mediocre priority but good reach."
+          },
+          "mk": {
+            "start": 3,
+            "act": 6,
+            "rcv": 9,
+            "dmg": "22[0]",
+            "stun": "5~11",
+            "stunT": 60,
+            "chnC": "No",
+            "speC": "Yes",
+            "supC": "yes",
+            "fAdv": "+3",
+            "comment": "Crouching side kick. This move has good reach and recovery, but is has projected vulnerable hitboxes before and after it becomes active. It is an important tool when closing the gap on the enemy and trying to push him into the corner as it can be canceled into Hadoukens. It is also used in bread and butter combos."
+          },
+          "hk": {
+            "start": 3,
+            "act": 6,
+            "rcv": 25,
+            "dmg": "26[1]",
+            "stun": "5~11",
+            "stunT": 130,
+            "chnC": "No",
+            "speC": "Yes",
+            "supC": "Yes",
+            "fAdv": "-9",
+            "comment": "Ryu's sweep kick. This move generates a fast knockdown if it hits. It has good range and the priority is such that it beats or trades with a number of moves. The recovery, however, is very long, so good players will try to bait this move so as to punish it afterward. Top shoto players will always cancel a Cr. RH with a jab SRK (harder to punish) when using as a poke. This can be canceled into Hadoukens so you can push the enemy towards his corner or Shoryukens and Short tatsus for super meter. Knowing the timing for walking up cr.Rounhouse xx Hadouken is an important skill for shoto players. Also note that Ryu/Ken's sweep has the fastest startup for a sweep in the game (3 frames), which makes it really good in pressure situations."
+          }
+        },
+        "air": {
+          "ntrl": {
+            "lp": {
+              "start": 2,
+              "dmg": "12[0]",
+              "stun": "1~7(-2)",
+              "stunT": 40,
+              "speC": "Yes",
+              "comment": "Ryu performs a jumping jab that is active throughout the whole jump. Ryu's hand has a relatively large active hitbox around it, making this a good air-to-air move. It can be used for jumping on you opponent after a knockdown and not generate much push-back, allowing you to apply mix-ups such as throw, cr.forward xx Hadouken/super or delayed Jab SRK (to beat reversal throws)"
+            },
+            "mp": {
+              "start": 4,
+              "act": 20,
+              "rcv": 12,
+              "dmg": "22[0]",
+              "stun": "5~11",
+              "stunT": 50,
+              "speC": "Yes",
+              "comment": "Ryu does a crouching straight. Good damage, stun, recovery and priority. Ryu's whole arm is completely invincible. This move can be used as a safe meaty against several invulnerable special attacks from the correct distance. However, this can be countered by standing still (which shrinks the hurtbox horizontally) and then either attacking or walking up and throwing. It is also unsafe against most supers, which is yet another reason to (always) have an eye on the enemy's super bar."
+            },
+            "hp": {
+              "start": 4,
+              "act": 8,
+              "rcv": 12,
+              "dmg": "26[1]",
+              "stun": "11~17(-1)",
+              "stunT": "60(+20)",
+              "speC": "Yes",
+              "comment": "Same as diagonal jump fierce, but does more dizzy."
+            },
+            "lk": {
+              "start": 3,
+              "act": 40,
+              "dmg": "14[0]",
+              "stun": "1~7(-2)",
+              "stunT": 40,
+              "speC": "Yes",
+              "comment": "This stays out for quite some time, but it has a very short reach. Mostly useless."
+            },
+            "mk": {
+              "start": 5,
+              "act": 13,
+              "dmg": "22[0]",
+              "stun": "5~11",
+              "stunT": 50,
+              "speC": "Yes",
+              "comment": "OK kick that stays active for some time. It can be used in certain situations where the enemy has trouble knowing which way to block. That aside, prefer neutral Strong, Fierce or Roundhouse."
+            },
+            "hk": {
+              "start": 2,
+              "act": "8 (4+4)",
+              "dmg": "28[0] / 26[0]",
+              "stun": "1~7(-2)",
+              "stunT": 40,
+              "speC": "Yes / No",
+              "comment": "Neutral spin kick that has good reach. The first active part becomes active very fast, saving you from some troublesome situations."
+            }
+          },
+          "diag": {
+            "lp": {
+              "start": 2,
+              "dmg": "12[0]",
+              "stun": "1~7(-2)",
+              "stunT": 40,
+              "speC": "Yes",
+              "comment": "Ryu performs a jumping jab that is active throughout the whole jump. Ryu's hand has a relatively large active hitbox around it, making this a good air-to-air move. It can be used for jumping on you opponent after a knockdown and not generate much push-back, allowing you to apply mix-ups such as throw, cr.forward xx Hadouken/super or delayed Jab SRK (to beat reversal throws). This beats Zangief's Lariats from the right distance and still hits him if he crouches."
+            },
+            "mp": {
+              "start": 4,
+              "act": "5+4 (9)",
+              "dmg": "24[1] + 4[1]",
+              "stun": "3~9 / 0~5",
+              "stunT": "40 / 20",
+              "speC": "Yes / No",
+              "comment": "Ryu jumps with an upper punch that hits twice and juggles in the air. The first active part has good horizontal reach and priority. If you successfully land this attack in the air, you may use it again until you obtain three aerial hits. This can be considered as anti-air, specially if you react early and you believe the opponent will try a late aerial attack. A super can also be comboed after this move, for a total of 5 hits. From the right distance, this move beats Lariats and Blanka's rolling attacks. However, any grounded enemy can avoid the attack by crouching, which is specially dangerous against Zangief, E. Honda and Hawk, as they can throw while crouching (stomach press, Oiicho and typhoon, in this order)."
+            },
+            "hp": {
+              "start": 4,
+              "act": 8,
+              "dmg": "26[1]",
+              "stun": "3~9",
+              "stunT": 40,
+              "speC": "Yes",
+              "comment": "This move has very good air to ground priority, and Ryu's arm is also completely invincible. It can be used as anti-air from certain distances, and also beats or trades most other aerial attacks."
+            },
+            "lk": {
+              "start": 5,
+              "act": 10,
+              "dmg": "12[0]",
+              "stun": "1~7(-2)",
+              "stunT": 40,
+              "speC": "Yes",
+              "comment": "This stays out for quite some time, but safe jumps aside, this does not have many uses. Its main downside is the short reach."
+            },
+            "mk": {
+              "start": 5,
+              "act": 13,
+              "dmg": "22[0]",
+              "stun": "5~11",
+              "stunT": "50(+10)",
+              "speC": "Yes",
+              "comment": "Rather long aerial kick with poor priority. It can be used as a cross-up aerial attack, but diagonal Roundhouse is better for that. It can be used in safe jumps, to get less push-back if it gets blocked. Another plus for this move is that it is the diagonal jumping move that does the most stun(dizzy) in Ryu's arsenal."
+            },
+            "hk": {
+              "start": 5,
+              "act": 7,
+              "dmg": "26[1]",
+              "stun": "3~9",
+              "stunT": 40,
+              "speC": "No",
+              "comment": "Ryu's best cross-up attack. This also has good reach, but as it projects vulnerable hitboxes, it can also be countered if you whiff. From certain distances, this can also be used as anti-air, in the same fashion as diagonal jumping Fierce, hitting your enemy from above his attack or around the head."
+            }
+          }
         }
       },
-      "hk": {
-        "cl": {
-          "start": 7,
-          "act": "12 (8+4)",
-          "rcv": 11,
-          "dmg": "30[1] + 4[1]",
-          "stun": "10~16 + 1~7",
-          "stunT": "80 + 70",
-          "chnC": "No",
-          "speC": "No",
-          "supC": "No",
-          "fAdv": "-1 / +7(+6)",
-          "comment": "Ryu performs an axe kick that hits twice if the enemy is close enough. This is not a very useful move, but it is safe on block from point-blank range and often trades with aerial attacks. If you use it as a meaty, you can combo a crouching kick for two or three hits. you often have better options, though."
+      "throw": {
+        "name": [
+          "Shoulder Throw a.k.a. Seoi Nage",
+          "Circle Throw a.k.a. Tomoe Nage"
+        ],
+        "input": [
+          "(←/↖/↗/→ + Strong/Fierce)",
+          "(←/↖/↗/→ + Forward/Roundhouse)"
+        ],
+        "start": 11,
+        "act": 41,
+        "dmg": 32,
+        "stun": "7~13",
+        "stunT": 100,
+        "range": {
+          "frm axis": 48,
+          "frm thrw box": 19
+        }
+      },
+      "specials": {
+        "hadoken": {
+          "motion": [
+            "↓ ↘ → + P ",
+            "↓ [7~14f] ↘ [7~14f] → [10/9/7f] Jab/Strong/Fierce",
+            "QCF (Quarter Circle Forward) + P",
+            "236P"
+          ],
+
+          "lp": {
+            "start": 11,
+            "act": 41,
+            "dmg": "18[0]",
+            "stun": "7~13",
+            "stunT": 110,
+            "supM": 2
+          },
+          "mp": {
+            "start": 11,
+            "act": 41,
+            "dmg": "20[0]",
+            "stun": "7~13",
+            "stunT": 110,
+            "supM": 2
+          },
+          "hp": {
+            "start": 11,
+            "act": 41,
+            "dmg": "22[0] / 20[0]",
+            "stun": "7~13",
+            "stunT": 110,
+            "supM": 2
+          },
+          "comment": "Ryu throws a blue ball of energy at his opponent. The strength of the punch determines its speed and damage: Jab flies the slowest and does less damage, while Fierce flies the fastest and does more damage. Fierce only does more damage than Strong if it hits during the first 26 active frames though (from point-blank range to mid screen). Although all 3 versions (Jab, Strong, Fierce) have Ryu release the fireball at the same interval, Ryu will recover from the vulnerable 'after-throw' state fastest after a Jab fireball and slowest after a Fierce fireball. However, the difference is almost imperceptible. You can reduce the recovery of strong and Fierce Hadoukens by kara or special canceling a jab or short into them. Conversely, all versions will have the longest recovery when canceled out of a Fierce or Roundhouse. Some characters such as Vega can punish Hadoukens on block or hit from close distance, so watch out for that. In addition to it, the move can evade completely when used from point-blank range, as some characters' attacks move their hitboxes towards a bit. This leaves Ryu wide open for throws or any ground combo they want to use.This move is known to do high amounts of stun damage. Three hits in a row and pretty much any enemy falls dizzy."
         },
-        "fa": {
-          "start": 2,
-          "act": "12(4+8)",
-          "rcv": 17,
-          "dmg": "30[1]",
-          "stun": "10~16",
-          "stunT": "80",
-          "chnC": "No",
-          "speC": "Yes / No",
-          "supC": "Yes / No",
-          "fAdv": "-7 / -3",
-          "comment": "Ryu's staple Roundhouse kick. Mediocre anti-air that can be canceled in the odd event that it hits during the first active part. This move can not be canceled into specials if it hits while the leg is fully extended."
+        "shoryuken": {
+          "motion": [
+            "↓ ↘ → + P ",
+            "QCF (Quarter Circle Forward) + P",
+            "236P",
+            "down, down-towards, towards Punch",
+            "↓ [7~14f] ↘ [7~14f] → [10/9/7f] Jab/Strong/Fierce"
+          ],
+
+          "lp": {
+            "start": 11,
+            "act": 41,
+            "dmg": "18[0]",
+            "stun": "7~13",
+            "stunT": 110,
+            "supM": 2
+          },
+          "mp": {
+            "start": 11,
+            "act": 41,
+            "dmg": "20[0]",
+            "stun": "7~13",
+            "stunT": 110,
+            "supM": 2
+          },
+          "hp": {
+            "start": 11,
+            "act": 41,
+            "dmg": "22[0] / 20[0]",
+            "stun": "7~13",
+            "stunT": 110,
+            "supM": 2
+          },
+          "comment": "Ryu throws a blue ball of energy at his opponent. The strength of the punch determines its speed and damage: Jab flies the slowest and does less damage, while Fierce flies the fastest and does more damage. Fierce only does more damage than Strong if it hits during the first 26 active frames though (from point-blank range to mid screen). Although all 3 versions (Jab, Strong, Fierce) have Ryu release the fireball at the same interval, Ryu will recover from the vulnerable 'after-throw' state fastest after a Jab fireball and slowest after a Fierce fireball. However, the difference is almost imperceptible. You can reduce the recovery of strong and Fierce Hadoukens by kara or special canceling a jab or short into them. Conversely, all versions will have the longest recovery when canceled out of a Fierce or Roundhouse. Some characters such as Vega can punish Hadoukens on block or hit from close distance, so watch out for that. In addition to it, the move can evade completely when used from point-blank range, as some characters' attacks move their hitboxes towards a bit. This leaves Ryu wide open for throws or any ground combo they want to use.This move is known to do high amounts of stun damage. Three hits in a row and pretty much any enemy falls dizzy."
         }
       }
-    },
-    "crouch": {
-      "lp": {
-        "start": 2,
-        "act": 4,
-        "rcv": 5,
-        "dmg": "4[0}",
-        "stun": "0~5",
-        "stunT": 40,
-        "chnC": "Yes",
-        "speC": "Yes",
-        "supC": "yes",
-        "fAdv": "+4",
-        "comment": "Rapid-fire ducking Jab with average reach and very good priority. Ryu's arm is completely invincible."
-      },
-      "mp": {
-        "start": 3,
-        "act": 4,
-        "rcv": 7,
-        "dmg": "22[0]",
-        "stun": "5~11",
-        "stunT": 60,
-        "chnC": "No",
-        "speC": "Yes",
-        "supC": "yes",
-        "fAdv": "+7",
-        "comment": "Ryu does a crouching straight. Good damage, stun, recovery and priority. Ryu's whole arm is completely invincible. This move can be used as a safe meaty against several invulnerable special attacks from the correct distance. However, this can be countered by standing still (which shrinks the hurtbox horizontally) and then either attacking or walking up and throwing. It is also unsafe against most supers, which is yet another reason to (always) have an eye on the enemy's super bar."
-      },
-      "hp": {
-        "start": 3,
-        "act": "3+8 (11)",
-        "rcv": 23,
-        "dmg": "28[1] / 22[1]",
-        "stun": "3~9 / 10~16",
-        "stunT": "40 / 80",
-        "chnC": "No",
-        "speC": "Yes / No",
-        "supC": "Yes / No",
-        "fAdv": "-12 / -9",
-        "comment": "Uppercut from crouching position. It does good damage and has a deceptively long horizontal reach, but just average to low priority and quite long recovery. This move is unsafe on block or hit and is mainly used in combos or as close-up anti-air. Favor standing Fierce if you can for the latter."
-      },
-      "lk": {
-        "start": 3,
-        "act": 4,
-        "rcv": 5,
-        "dmg": "4[0]",
-        "stun": "0~5",
-        "stunT": 40,
-        "chnC": "Yes",
-        "speC": "Yes",
-        "supC": "yes",
-        "fAdv": "+4",
-        "comment": "Rapid fire crouching low kick. Mediocre priority but good reach."
-      },
-      "mk": {
-        "start": 3,
-        "act": 6,
-        "rcv": 9,
-        "dmg": "22[0]",
-        "stun": "5~11",
-        "stunT": 60,
-        "chnC": "No",
-        "speC": "Yes",
-        "supC": "yes",
-        "fAdv": "+3",
-        "comment": "Crouching side kick. This move has good reach and recovery, but is has projected vulnerable hitboxes before and after it becomes active. It is an important tool when closing the gap on the enemy and trying to push him into the corner as it can be canceled into Hadoukens. It is also used in bread and butter combos."
-      },
-      "hk": {
-        "start": 3,
-        "act": 6,
-        "rcv": 25,
-        "dmg": "26[1]",
-        "stun": "5~11",
-        "stunT": 130,
-        "chnC": "No",
-        "speC": "Yes",
-        "supC": "Yes",
-        "fAdv": "-9",
-        "comment": "Ryu's sweep kick. This move generates a fast knockdown if it hits. It has good range and the priority is such that it beats or trades with a number of moves. The recovery, however, is very long, so good players will try to bait this move so as to punish it afterward. Top shoto players will always cancel a Cr. RH with a jab SRK (harder to punish) when using as a poke. This can be canceled into Hadoukens so you can push the enemy towards his corner or Shoryukens and Short tatsus for super meter. Knowing the timing for walking up cr.Rounhouse xx Hadouken is an important skill for shoto players. Also note that Ryu/Ken's sweep has the fastest startup for a sweep in the game (3 frames), which makes it really good in pressure situations."
-      }
-    },
-    "air": {
-      "ntrl": {
-        "lp": {
-          "start": 2,
-          "dmg": "12[0]",
-          "stun": "1~7(-2)",
-          "stunT": 40,
-          "speC": "Yes",
-          "comment": "Ryu performs a jumping jab that is active throughout the whole jump. Ryu's hand has a relatively large active hitbox around it, making this a good air-to-air move. It can be used for jumping on you opponent after a knockdown and not generate much push-back, allowing you to apply mix-ups such as throw, cr.forward xx Hadouken/super or delayed Jab SRK (to beat reversal throws)"
-        },
-        "mp": {
-          "start": 4,
-          "act": 20,
-          "rcv": 12,
-          "dmg": "22[0]",
-          "stun": "5~11",
-          "stunT": 50,
-          "speC": "Yes",
-          "comment": "Ryu does a crouching straight. Good damage, stun, recovery and priority. Ryu's whole arm is completely invincible. This move can be used as a safe meaty against several invulnerable special attacks from the correct distance. However, this can be countered by standing still (which shrinks the hurtbox horizontally) and then either attacking or walking up and throwing. It is also unsafe against most supers, which is yet another reason to (always) have an eye on the enemy's super bar."
-        },
-        "hp": {
-          "start": 4,
-          "act": 8,
-          "rcv": 12,
-          "dmg": "26[1]",
-          "stun": "11~17(-1)",
-          "stunT": "60(+20)",
-          "speC": "Yes",
-          "comment": "Same as diagonal jump fierce, but does more dizzy."
-        },
-        "lk": {
-          "start": 3,
-          "act": 40,
-          "dmg": "14[0]",
-          "stun": "1~7(-2)",
-          "stunT": 40,
-          "speC": "Yes",
-          "comment": "This stays out for quite some time, but it has a very short reach. Mostly useless."
-        },
-        "mk": {
-          "start": 5,
-          "act": 13,
-          "dmg": "22[0]",
-          "stun": "5~11",
-          "stunT": 50,
-          "speC": "Yes",
-          "comment": "OK kick that stays active for some time. It can be used in certain situations where the enemy has trouble knowing which way to block. That aside, prefer neutral Strong, Fierce or Roundhouse."
-        },
-        "hk": {
-          "start": 2,
-          "act": "8 (4+4)",
-          "dmg": "28[0] / 26[0]",
-          "stun": "1~7(-2)",
-          "stunT": 40,
-          "speC": "Yes / No",
-          "comment": "Neutral spin kick that has good reach. The first active part becomes active very fast, saving you from some troublesome situations."
-        }
-      },
-      "diag": {
-        "lp": {
-          "start": 2,
-          "dmg": "12[0]",
-          "stun": "1~7(-2)",
-          "stunT": 40,
-          "speC": "Yes",
-          "comment": "Ryu performs a jumping jab that is active throughout the whole jump. Ryu's hand has a relatively large active hitbox around it, making this a good air-to-air move. It can be used for jumping on you opponent after a knockdown and not generate much push-back, allowing you to apply mix-ups such as throw, cr.forward xx Hadouken/super or delayed Jab SRK (to beat reversal throws). This beats Zangief's Lariats from the right distance and still hits him if he crouches."
-        },
-        "mp": {
-          "start": 4,
-          "act": "5+4 (9)",
-          "dmg": "24[1] + 4[1]",
-          "stun": "3~9 / 0~5",
-          "stunT": "40 / 20",
-          "speC": "Yes / No",
-          "comment": "Ryu jumps with an upper punch that hits twice and juggles in the air. The first active part has good horizontal reach and priority. If you successfully land this attack in the air, you may use it again until you obtain three aerial hits. This can be considered as anti-air, specially if you react early and you believe the opponent will try a late aerial attack. A super can also be comboed after this move, for a total of 5 hits. From the right distance, this move beats Lariats and Blanka's rolling attacks. However, any grounded enemy can avoid the attack by crouching, which is specially dangerous against Zangief, E. Honda and Hawk, as they can throw while crouching (stomach press, Oiicho and typhoon, in this order)."
-        },
-        "hp": {
-          "start": 4,
-          "act": 8,
-          "dmg": "26[1]",
-          "stun": "3~9",
-          "stunT": 40,
-          "speC": "Yes",
-          "comment": "This move has very good air to ground priority, and Ryu's arm is also completely invincible. It can be used as anti-air from certain distances, and also beats or trades most other aerial attacks."
-        },
-        "lk": {
-          "start": 5,
-          "act": 10,
-          "dmg": "12[0]",
-          "stun": "1~7(-2)",
-          "stunT": 40,
-          "speC": "Yes",
-          "comment": "This stays out for quite some time, but safe jumps aside, this does not have many uses. Its main downside is the short reach."
-        },
-        "mk": {
-          "start": 5,
-          "act": 13,
-          "dmg": "22[0]",
-          "stun": "5~11",
-          "stunT": "50(+10)",
-          "speC": "Yes",
-          "comment": "Rather long aerial kick with poor priority. It can be used as a cross-up aerial attack, but diagonal Roundhouse is better for that. It can be used in safe jumps, to get less push-back if it gets blocked. Another plus for this move is that it is the diagonal jumping move that does the most stun(dizzy) in Ryu's arsenal."
-        },
-        "hk": {
-          "start": 5,
-          "act": 7,
-          "dmg": "26[1]",
-          "stun": "3~9",
-          "stunT": 40,
-          "speC": "No",
-          "comment": "Ryu's best cross-up attack. This also has good reach, but as it projects vulnerable hitboxes, it can also be countered if you whiff. From certain distances, this can also be used as anti-air, in the same fashion as diagonal jumping Fierce, hitting your enemy from above his attack or around the head."
-        }
-      }
-    }
-  },
-  "throw": {
-    "name": [
-      "Shoulder Throw a.k.a. Seoi Nage",
-      "Circle Throw a.k.a. Tomoe Nage"
-    ],
-    "input": ["(←/↖/↗/→ + Strong/Fierce)", "(←/↖/↗/→ + Forward/Roundhouse)"],
-    "start": 11,
-    "act": 41,
-    "dmg": 32,
-    "stun": "7~13",
-    "stunT": 100,
-    "range": {
-      "frm axis": 48,
-      "frm thrw box": 19
-    }
-  },
-  "specials": {
-    "hadoken": {
-      "motion": [
-        "↓ ↘ → + P ",
-        "↓ [7~14f] ↘ [7~14f] → [10/9/7f] Jab/Strong/Fierce",
-        "QCF (Quarter Circle Forward) + P",
-        "236P"
-      ],
-
-      "lp": {
-        "start": 11,
-        "act": 41,
-        "dmg": "18[0]",
-        "stun": "7~13",
-        "stunT": 110,
-        "supM": 2
-      },
-      "mp": {
-        "start": 11,
-        "act": 41,
-        "dmg": "20[0]",
-        "stun": "7~13",
-        "stunT": 110,
-        "supM": 2
-      },
-      "hp": {
-        "start": 11,
-        "act": 41,
-        "dmg": "22[0] / 20[0]",
-        "stun": "7~13",
-        "stunT": 110,
-        "supM": 2
-      },
-      "comment": "Ryu throws a blue ball of energy at his opponent. The strength of the punch determines its speed and damage: Jab flies the slowest and does less damage, while Fierce flies the fastest and does more damage. Fierce only does more damage than Strong if it hits during the first 26 active frames though (from point-blank range to mid screen). Although all 3 versions (Jab, Strong, Fierce) have Ryu release the fireball at the same interval, Ryu will recover from the vulnerable 'after-throw' state fastest after a Jab fireball and slowest after a Fierce fireball. However, the difference is almost imperceptible. You can reduce the recovery of strong and Fierce Hadoukens by kara or special canceling a jab or short into them. Conversely, all versions will have the longest recovery when canceled out of a Fierce or Roundhouse. Some characters such as Vega can punish Hadoukens on block or hit from close distance, so watch out for that. In addition to it, the move can evade completely when used from point-blank range, as some characters' attacks move their hitboxes towards a bit. This leaves Ryu wide open for throws or any ground combo they want to use.This move is known to do high amounts of stun damage. Three hits in a row and pretty much any enemy falls dizzy."
-    },
-    "shoryuken": {
-      "motion": [
-        "↓ ↘ → + P ",
-        "QCF (Quarter Circle Forward) + P",
-        "236P",
-        "down, down-towards, towards Punch",
-        "↓ [7~14f] ↘ [7~14f] → [10/9/7f] Jab/Strong/Fierce"
-      ],
-
-      "lp": {
-        "start": 11,
-        "act": 41,
-        "dmg": "18[0]",
-        "stun": "7~13",
-        "stunT": 110,
-        "supM": 2
-      },
-      "mp": {
-        "start": 11,
-        "act": 41,
-        "dmg": "20[0]",
-        "stun": "7~13",
-        "stunT": 110,
-        "supM": 2
-      },
-      "hp": {
-        "start": 11,
-        "act": 41,
-        "dmg": "22[0] / 20[0]",
-        "stun": "7~13",
-        "stunT": 110,
-        "supM": 2
-      },
-      "comment": "Ryu throws a blue ball of energy at his opponent. The strength of the punch determines its speed and damage: Jab flies the slowest and does less damage, while Fierce flies the fastest and does more damage. Fierce only does more damage than Strong if it hits during the first 26 active frames though (from point-blank range to mid screen). Although all 3 versions (Jab, Strong, Fierce) have Ryu release the fireball at the same interval, Ryu will recover from the vulnerable 'after-throw' state fastest after a Jab fireball and slowest after a Fierce fireball. However, the difference is almost imperceptible. You can reduce the recovery of strong and Fierce Hadoukens by kara or special canceling a jab or short into them. Conversely, all versions will have the longest recovery when canceled out of a Fierce or Roundhouse. Some characters such as Vega can punish Hadoukens on block or hit from close distance, so watch out for that. In addition to it, the move can evade completely when used from point-blank range, as some characters' attacks move their hitboxes towards a bit. This leaves Ryu wide open for throws or any ground combo they want to use.This move is known to do high amounts of stun damage. Three hits in a row and pretty much any enemy falls dizzy."
     }
   }
 }
