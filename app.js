@@ -1,3 +1,4 @@
+//add cors later on
 //express
 const express = require("express");
 const app = express();
@@ -13,6 +14,8 @@ const mongoose = require("mongoose");
 require("dotenv/config");
 
 //middleware routes
+// var cors = require("cors");
+// app.use(cors);
 const postsRoute = require("./routes/illuminati");
 
 //illuminati route
